@@ -80,15 +80,18 @@ int main(void)
 
         // Invert LED in Data Register
         // PORTB = PORTB xor 0010 0000
+
 		// Sending symbol D (  _ • • )
         PORTB = PORTB ^ (1<<LED_GREEN);  // dash on
 		_delay_ms(DASH_DELAY);
 		PORTB = PORTB ^ (1<<LED_GREEN);  // off
 		_delay_ms(SHORT_DELAY);          // pause between characters
+
 		PORTB = PORTB ^ (1<<LED_GREEN);  // dot on
 		_delay_ms(DOT_DELAY);
 		PORTB = PORTB ^ (1<<LED_GREEN);  // dot off
 		_delay_ms(SHORT_DELAY);
+
 		PORTB = PORTB ^ (1<<LED_GREEN);  // dot on
 		_delay_ms(DOT_DELAY);            
 		PORTB = PORTB ^ (1<<LED_GREEN);  // dot off
@@ -105,18 +108,22 @@ int main(void)
 		_delay_ms(DOT_DELAY);
 		PORTB = PORTB ^ (1<<LED_GREEN);  // dot off
 		_delay_ms(SHORT_DELAY);          // pause between characters
+
 		PORTB = PORTB ^ (1<<LED_GREEN);  // 2nd dot on
 		_delay_ms(DOT_DELAY);
 		PORTB = PORTB ^ (1<<LED_GREEN);  // dot off
 		_delay_ms(SHORT_DELAY);
+
 		PORTB = PORTB ^ (1<<LED_GREEN);  // 1st dash on
 		_delay_ms(DASH_DELAY);
 		PORTB = PORTB ^ (1<<LED_GREEN);  // off
 		_delay_ms(SHORT_DELAY);
+
 		PORTB = PORTB ^ (1<<LED_GREEN);  // 2nd dash on
 		_delay_ms(DASH_DELAY);
 		PORTB = PORTB ^ (1<<LED_GREEN);  // off
 		_delay_ms(SHORT_DELAY);
+		
 		PORTB = PORTB ^ (1<<LED_GREEN);  // 3rd dash on
 		_delay_ms(DASH_DELAY);
 		PORTB = PORTB ^ (1<<LED_GREEN);  // off
