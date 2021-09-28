@@ -2,7 +2,7 @@
 
 Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://github.com/...](https://github.com/...)
+   [Link to Lab Assignment 1](https://github.com/Masauso-L/Digital-electronis-2/tree/main/Labs/01-tools/HW1-morse_code)
 
 
 ### Blink example
@@ -123,7 +123,7 @@ int main(void)
 		_delay_ms(DASH_DELAY);
 		PORTB = PORTB ^ (1<<LED_GREEN);  // off
 		_delay_ms(SHORT_DELAY);
-		
+
 		PORTB = PORTB ^ (1<<LED_GREEN);  // 3rd dash on
 		_delay_ms(DASH_DELAY);
 		PORTB = PORTB ^ (1<<LED_GREEN);  // off
