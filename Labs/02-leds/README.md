@@ -3,7 +3,7 @@
 
 Link to My `Digital-electronics-2` GitHub repository:
 
-   [Masauso Lungu](https://github.com/...)
+   [Masauso Lungu](https://github.com/Masauso-L/Digital-electronis-2/tree/main/Labs/02-leds)
 
 ## Preparation tasks (done before the lab at home)
 
@@ -97,7 +97,7 @@ Link to My `Digital-electronics-2` GitHub repository:
 |   | 4 | Yes (Arduino pin 4) |
 |   | 5 | Yes (Arduino pin ~5) |
 |   | 6 | Yes (Arduino pin ~6) |
-|   | 7 | Yes (Arduino pin 7 |
+|   | 7 | Yes (Arduino pin 7 ) |
 
 2. Part of the C code listing with syntax highlighting, which blinks alternately with a pair of LEDs; let one LED is connected to port B and the other to port C:
 
