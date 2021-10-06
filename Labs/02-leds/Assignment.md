@@ -1,9 +1,8 @@
-# Lab 2: Control of GPIO, LED, push butt
-# Name: MASAUSO LUNGU
+# Lab 2: MASAUSO LUNGU
 
 Link to My `Digital-electronics-2` GitHub repository:
 
-   [Masauso Lungu](https://github.com/...)
+   [https://github.com/...](https://github.com/...)
 
 ## Preparation tasks (done before the lab at home)
 
