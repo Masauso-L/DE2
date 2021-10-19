@@ -3,12 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Atmel Studio Solution File, Format Version 11.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "gpio", "gpio.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F4B368F-7FC8-4BEE-A24A-E95E9DFF150F}"
-	ProjectSection(SolutionItems) = preProject
-		main.c = main.c
-	EndProjectSection
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "timers", "timers.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
