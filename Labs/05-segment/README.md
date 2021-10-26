@@ -2,7 +2,7 @@
 
 Link to My `Digital-electronics-2` GitHub repository:
 
-   [Masauso Lungu](https://github.com/Masauso-L/Digital-electronis-2/tree/main/Labs/05-segments)
+   [Masauso Lungu](https://github.com/Masauso-L/Digital-electronis-2/tree/main/Labs/05-segment)
 
 
 # Lab 5: Display devices, 7-segment display
