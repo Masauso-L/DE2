@@ -7,7 +7,7 @@ The purpose of the laboratory exercise is to understand analog-to-digital number
 
 ## Preparation tasks (done before the lab at home)
 
-Use schematic of the [LCD keypad shield](../../Docs/arduino_shield.pdf) and find out the connection of five push buttons: Select, Left, Up, Down, and Right.
+1. Use schematic of the [LCD keypad shield](../../Docs/arduino_shield.pdf) and find out the connection of five push buttons: Select, Left, Up, Down, and Right.
 
 
 
@@ -17,7 +17,7 @@ Use schematic of the [LCD keypad shield](../../Docs/arduino_shield.pdf) and find
 &nbsp;
 &nbsp;
 
-According to the connection, calculate the voltage value on pin PC0[A0] if one button is pressed at a time. In this case, the voltage on the pin is given by the [voltage divider](https://www.allaboutcircuits.com/tools/voltage-divider-calculator/), where resistors R3, R4, R5 and R6 are applied successively.
+2. According to the connection, calculate the voltage value on pin PC0[A0] if one button is pressed at a time. In this case, the voltage on the pin is given by the [voltage divider](https://www.allaboutcircuits.com/tools/voltage-divider-calculator/), where resistors R3, R4, R5 and R6 are applied successively.
 
 ![Equation: Voltage divider](Images/eq_divider1.png)
 
@@ -30,24 +30,24 @@ According to the connection, calculate the voltage value on pin PC0[A0] if one b
 
 &nbsp;
 
-What is the voltage value if none of the push buttons is pressed?
+3. Calculate voltage value if none of the push buttons is pressed?
 
 ![Equation: Voltage divider](Images/eq_divider6.png)
 
 &nbsp;
 
-Calculate the ADC values for these voltages according to the following equation if reference is Vref=5V and number of bits for analog to digital conversion is n=10.
+4. Calculate the ADC values for these voltages according to the following equation if reference is Vref=5V and number of bits for analog to digital conversion is n=10.
 
 ![Equation: ADC conversion](Images/eq_adc.png)
 
    | **Push button** | **PC0[A0] voltage** | **ADC value (calculated)** | **ADC value (measured)** |
    | :-: | :-: | :-: | :-: |
    | Right  | 0 V     | 0      | 0  |
-   | Up     | 0.495 V | 101    | 101 |
-   | Down   | 1.202 V |  246   | 245 |
-   | Left   |  1.97 V |  403   | 402 |
-   | Select |  3.18 V |  651   | 650 |
-   | none   |  5 V    |  1023  | 1022 |
+   | Up     | 0.495 V | 101    | 99 |
+   | Down   | 1.202 V |  246   | 256 |
+   | Left   |  1.97 V |  403   | 409 |
+   | Select |  3.18 V |  651   | 639 |
+   | none   |  5 V    |  1023  | 1023 |
 
 
 &nbsp;
@@ -74,3 +74,4 @@ Selected functions from [UART library](http://www.peterfleury.epizy.com/avr-soft
    | `uart_getc` | `void` | get received data from ringbuffer  |`uart_getc(0);` |
    | `uart_putc` | `unsigned char data` | Put byte to ringbuffer for transmitting via UART | `uart_putc('x');`|
    | `uart_puts` | `const char* s` | Put string to ringbuffer for transmitting via UART | `uart_puts("DE2");`|
+=
