@@ -47,8 +47,16 @@ See main repository
 
 ## Main application
 
-for streamlined version check here ![main.c]
+for streamlined version check here ![main.c](https://github.com/Masauso-L/Digital-electronis-2/blob/main/Labs/project-1/green_house_monitor/main.c)
 
+* **displaying data on uart**
+![uart](Images/uart1.jpeg)
+* **reading soil moisture in plant with less water**
+
+![main1](Images/main.jpeg)
+
+* **reading soil moisture in plant with excess water**
+![main2](Images/main2.jpeg)
 <a name="video"></a>
 
 ## Video
