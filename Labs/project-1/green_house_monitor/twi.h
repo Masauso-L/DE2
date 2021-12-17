@@ -98,6 +98,8 @@ void twi_init(void);
  */
 uint8_t twi_start(uint8_t slave_address);
 
+//void twi_start_wait(unsigned char address);
+
 
 /**
  * @brief  Send one data byte to TWI slave device.

@@ -1,7 +1,18 @@
 # Greenhouse monitoring and control system
 
+### Team members
 
-Link to the GitHub repository:
+* Beránková Tereza
+* Čermák Václav
+* Lungu Masauso
+
+
+Main Link to the GitHub repository:
+
+[https://github.com/xcerma40/DE2-project-greenhouse](https://github.com/xcerma40/DE2-project-greenhouse)
+
+sub Link to the GitHub repository:(streamlined version)
+
 
 [https://github.com/Masauso-L/Digital-electronis-2/tree/main/Labs/project-1](https://github.com/Masauso-L/Digital-electronis-2/tree/main/Labs/project-1)
 
@@ -18,34 +29,33 @@ Link to the GitHub repository:
 
 ## Project objectives
 
-Write your text here.
+See main repository
 
 <a name="hardware"></a>
 
 ## Hardware description
 
-Write your text here.
+*on main repository*
 
 <a name="libs"></a>
 
 ## Libraries description
 
-Write your text here.
+*on main repository*
 
 <a name="main"></a>
 
 ## Main application
 
-Write your text here.
+for streamlined version check here ![main.c]
 
 <a name="video"></a>
 
 ## Video
-
-Write your text here
-
+ video for streamlined version
+main video check the link in the main repositor
 <a name="references"></a>
 
 ## References
 
-1. Write your text here.
+*check main repository*
